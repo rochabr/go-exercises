@@ -13,8 +13,7 @@ type logWriter struct {
 func main() {
 	client := &http.Client{}
 
-	req, err := http.NewRequest("GET", "https://rigs-preprod.spinergie.com/base/api/riglocations", nil)
-	req.Header.Add("apiKey", "XpiHnsrMVH9fg0sS5F1Cma4TCKnDUP")
+	req, err := http.NewRequest("GET", "https://gooogle.com", nil)
 	resp, err := client.Do(req)
 
 	if err != nil {
